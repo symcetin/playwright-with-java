@@ -8,7 +8,8 @@ import com.microsoft.playwright.Playwright;
 public class P01_PlaywrightTest {
 
     public static void main(String[] args) throws InterruptedException {
-
+//added some comments
+        //more comments
         Playwright playwright=Playwright.create();
         BrowserType chromium = playwright.chromium();
         Browser browser = chromium.launch(
